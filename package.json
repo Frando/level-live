@@ -1,8 +1,8 @@
 {
-  "name": "level-live",
-  "version": "1.0.1",
+  "name": "@frando/level-live",
+  "version": "1.1.0",
   "license": "MIT",
-  "repository": "voltraco/level-live",
+  "repository": "Frando/level-live",
   "description": "Simple, light and correct LevelDB live read stream implementation",
   "scripts": {
     "test": "tap test.js && prettier-standard '*.js' && standard"
@@ -16,5 +16,8 @@
   "dependencies": {
     "level-codec": "^9.0.1",
     "ltgt": "^2.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

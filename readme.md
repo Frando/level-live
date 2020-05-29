@@ -2,6 +2,12 @@
 
 Simple, light and correct [LevelDB](https://github.com/level/level) live read stream implementation.
 
+---
+
+**Fork of [voltraco/level-live](https://github.com/voltraco/level-live) with two PRs applied: [#1](https://github.com/voltraco/level-live/pulls/1) and [#2](https://github.com/voltraco/level-live/pulls/2). Published to npm as `@frando/level-live`**
+
+---
+
 ## Usage
 
 ```js
